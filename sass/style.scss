@@ -5,31 +5,40 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
 body {
 	background-image: url("../images/pexels-photo-443356.jpeg");
-	background-size: cover;
+  	background-size: cover;
 	color: white;
 	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-size: 10px;
+}
+
+main {
+	padding: 5%;
 }
 
 h1 {
-	padding: 20px;
+	margin-top: 5vh;
 	text-shadow: 2px 2px black;
 	letter-spacing: 3px;
 	font-size: 3rem;
 }
 
 .quote {
-	padding: 20px;
+	padding: 40px 0 10px 0;
 	font-weight: 400;
 	text-align: center;
+	font-size: 1rem;
 }
 
 .author{
 	text-align: center;
 	font-weight: 300;
-	font-size: 1rem;
+	font-size: 0.8rem;
+	font-style: italic;
+	color: #FFE4A1;
+	text-transform: none;
 }
 
 main {
@@ -51,6 +60,7 @@ main {
 	letter-spacing: 2px;
 	outline: none;
 	cursor: pointer;
+	margin-top: 50px;
 }
 
 .tweet {
